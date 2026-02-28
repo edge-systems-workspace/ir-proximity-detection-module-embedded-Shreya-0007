@@ -41,7 +41,7 @@ void loop() {
     //     Print "Obstacle Detected"
     // Else
     //     Print "No Obstacle"
-    if (sensorState == LOW) {
+    if (sensorState == HIGH) {
         Serial.println("Obstacle Detected");
     } else {
         Serial.println("No Obstacle");
